@@ -8,7 +8,7 @@ public class AccountController {
 	
 	@GetMapping("account")
 	public String createAccount() {
-		return "Account Message";
+		return "Account Message Updated..";
 	}
 
 }
